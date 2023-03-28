@@ -1,6 +1,7 @@
 package Springbootdomain.Domain.repository;
 
 import Springbootdomain.Domain.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import javax.sound.midi.Sequence;
 import java.util.*;
