@@ -20,13 +20,4 @@ public class SpringConfig {
     public MemberService memberService() {
         return new MemberService(memberRepository);
     }
-/**
-    @Bean
-    public MemberRepository memberRepository() {
-        return new JpaMemberRepository(em);
-        return new JdbcTemplateMemberRepository(dataSource);
-        return new JdbcMemberRepository(dataSource);
-        return new MemoryMemberRepository();
-    }
- **/
 }

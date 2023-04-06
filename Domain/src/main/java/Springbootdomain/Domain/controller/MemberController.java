@@ -41,15 +41,4 @@ public class MemberController {
         model.addAttribute("members", members);
         return "members/memberList";
     }
-
-
-    /** 2. 필드 주입 **/
-    // @Autowired private MemberService memberService; //
-
-    /** 3. setter 주입 **/
-//    @Autowired
-//    public setMemberService(MemberService memberService) {
-//        this.memberService = memberService;
-//    }
-
 }
