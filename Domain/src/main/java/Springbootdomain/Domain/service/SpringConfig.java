@@ -2,10 +2,11 @@ package Springbootdomain.Domain.service;
 
 import Springbootdomain.Domain.aop.TimeTraceAop;
 import Springbootdomain.Domain.repository.MemberRepository;
-import Springbootdomain.Domain.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
+import java.sql.Time;
 
 
 @Configuration
